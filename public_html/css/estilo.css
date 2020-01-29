@@ -1,0 +1,265 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+a:link, a:active, a:visited{
+    color: #315e8a;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* grid 960px */
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.coluna{
+    padding: 0 25px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 28%;}
+.col-5 {width: 47%;
+        padding: 0px;}
+.col-6 {width: 45%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 93%;}s
+/* estilos reutilizaveis*/
+.sem-padding{
+    padding: 0 ! important;
+}
+.sem-margin{
+    padding: 0 ! important;
+}
+h1, h2, h3 ,h4 ,h5 ,h6{
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+ul li, ol li{
+    margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+    margin-right: 0px;
+}
+ul.sem-marcador, ol.sem-marcador{
+    list-style: none;
+}
+a.botao, input.botao{
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+a.botao:hover, input.botao:hover{
+    background: #31518a;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*layout do site*/
+.header{
+    background: #dee3e6;
+}
+h1.logo{
+    font-weight: 300;
+    color: #315e8a;
+    letter-spacing: -2px;
+    width: 25%;
+    float: left;
+}
+.conteudo-extra{
+    background: #f1f2ea;
+}
+.footer{
+    background: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 25px;
+    width: 86%;
+    float: left;
+}
+.menu li a{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    background: #1f3c58;
+    color: #ebebeb;
+}
+ul.noticias li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ul.noticias li img{
+    width: 126px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+ul.noticias li h4{
+    margin: -2px 0 5px 0;
+    font-weight: 500;
+}
+ul.noticias li p{
+    width: 401.933px;
+    margin: 15px 0;
+    font-weight: 300;
+}
+ul.noticias li p a{
+    float: left;
+    font-weight: 500;
+    font-size: 13px;
+}
+.contato label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.contato input, .contato textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+.contato textarea{
+    height: 150px;
+}
+.contato input.botao{
+    width: auto;
+}
+
+/*REFEITO*/
+.principal{
+    margin-top: -278px;
+    float: right;
+}
+.sidebar-topic{
+    margin-left: -36px;
+}
+.secundario{
+    width: 550.967px;
+}
+.sugestao, .sugestaoo, .sugestao-contato, .sugestao-serviço{
+    float: right;
+    margin-top: -329px;
+}
+.sugestao{
+    width: 438.933px;
+}
+.sugestao-serviço{
+    margin-top: -342px;
+    padding-right: 15px;
+}
+.sugestaoo{
+    margin-top: -420px;
+}
+.sugestao-contato{
+    width: 438.933px;
+    padding-top: 75px;
+    
+}
+.noticia .sugestao{
+    float: left; width: 30%; 
+    margin-top: -335px;
+}
+.tumb{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.dual-noticia1{
+    float: right;
+    margin-top: -415px;
+    padding-left: 13px;
+}
+.outras-news{
+    float: left;
+}
+.sidebar-oque, .contato{
+    float: right;
+}
+h3.grande{
+    font-size: 16px;
+}
+p.pequena{
+    font-size: 14px;
+    align-items: baseline;
+}
+img.thumb{
+    text-align: left;
+    float: left;
+}
+.bio{
+    margin-top: -690px;
+}
+input.enviar{
+    background: #1f3c58;
+    width: auto;
+    color: white;
+}
+#mensagem{
+    padding: 72px 2%;
+}
+.contato{
+    margin-top: -434px;
+}
+.sugestao0{
+    float: right;
+    margin-top: -248px;
+}
+.localizaçao{
+    width: 27%;
+}
+.noticia{
+    padding: 10px;
+    float: right;
+}
+h3.new-h3{
+    margin-left: 44px;
+}
+.conquistar-cliente{
+    width: 53%;
+}
+.opinion{
+    height: 73.6px;
+    width: 534.967px;
+}
+.opinioon{
+    height: 73.6px;
+    width: 520.967px;
+}
+.curiosidade-sobre{
+    margin-top: -431px;
+}
+.lado{
+    width: 535.967px;
+}
